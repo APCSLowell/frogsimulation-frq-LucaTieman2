@@ -38,6 +38,7 @@ public class FrogSimulation
 			if (simulate()) {
 				successes++;
 			}
+			i++;
 		}
 		return successes/num;
 
